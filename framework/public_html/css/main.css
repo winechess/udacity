@@ -8,3 +8,31 @@ and open the template in the editor.
     Author     : vinichenkosa
 */
 
+* {
+    font-family: Verdana, sans-serif;
+    color: #666666;
+    font-size: medium;
+    line-height: 2;
+}
+
+.text-orange {
+    color: #F07C17;
+    font-weight: 600;
+    padding-bottom: 15px;
+    
+}
+
+.features-block {
+    border: solid 1px #CCCCCC;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.title-super {
+    font-size: 50px;
+}
+
+.item-image {
+    margin-top: 20px;
+}
+
