@@ -1,44 +1,82 @@
 <!DOCTYPE html>
 <!-- saved from url=(0399)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html?GoogleAccessId=1069728276824-2uvq09l4tiplc0gf30rskdsgvtam6k1j@developer.gserviceaccount.com&Expires=1421671963&Signature=R8%2BmZB/RwUwAoK3Fymx3HthCTVBPhrOIYz2N9wD7fRIP4ldHiIvdxaU1v1kaW3yg32tiRe/ZWGJbArS0fi3lCCcpP8CImowblq%2BkLgCtYzJ8C2Ie8AgsUej9o5di7ftPknZ/4veeO%2B88f0HXvSM2vhMjlD0LG5Nr3IYioNBE4YY%3D -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2"><style type="text/css"></style></head>
-  <body>
-    <div>
-      <div><img src="./bootstrap-prestructure_files/100x100"></div>
-      <div>
-        <h1>Jane Doette</h1>
-        <h3>Front-end Ninja</h3>
-      </div>
-    </div>
-    <div>
-      <img src="./bootstrap-prestructure_files/1140x350">
-    </div>
-    <div>
-      <h2>Featured Work</h2>
-    </div>
-    <div>
-      <div>
-        <img src="./bootstrap-prestructure_files/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-      <div>
-        <img src="./bootstrap-prestructure_files/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-    </div>
-    <div>
-      <div>
-        <img src="./bootstrap-prestructure_files/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-      <div>
-        <img src="./bootstrap-prestructure_files/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-    </div>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <title>L3</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><img src="http://placehold.it/100x100" alt="100x100"></div>
+                <div class="col-md-6 text-uppercase text-right">
+                    <h1>Jane Doette</h1>
+                    <h3>Front-end Ninja</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="http://placehold.it/1140x350" alt="1140x350"
+                         class="img-responsive">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://placehold.it/555x300" alt="555x300"
+                         data-toggle="modal" data-target="#myModal">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com/">Link to project</a></p>
+                </div>
+                <div class="col-md-6">
+                    <img src="http://placehold.it/555x300" alt="555x300">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com/">Link to project</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://placehold.it/555x300" alt="555x300">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com/">Link to project</a></p>
+                </div>
+                <div class="col-md-6">
+                    <img src="http://placehold.it/555x300" alt="555x300">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com/">Link to project</a></p>
+                </div>
+            </div>
+        </div>
 
-  
-</body></html>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">   
+                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://placehold.it/555x300"
+                             alt="555x300"/>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
